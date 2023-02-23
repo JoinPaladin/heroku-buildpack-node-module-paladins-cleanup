@@ -4,5 +4,5 @@
 BUILD_DIR=$1
 
 echo "-----> Deleting node_modules directories"
-rm -rf $BUILD_DIR/node_modules
-rm -rf $BUILD_DIR/ui/node_modules 
+rm -rf "$BUILD_DIR/node_modules"
+rm -rf "$BUILD_DIR/ui/node_modules" 
